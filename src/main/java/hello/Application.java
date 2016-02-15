@@ -13,7 +13,7 @@ public class Application {
     MessageService mockMessageService() {
         return new MessageService() {
             public String getMessage() {
-                return "Hello World!";
+                return "Yo, hello World!";
             }
         };
     }
